@@ -1,0 +1,49 @@
+/** Name.........: US Currency Mod                                        **/
+/** Author.......: Chri1852                                               **/
+/** GitHub.......: https://github.com/chri1852/Project-Zomboid-Money-Mod  **/
+/** Last Updated.: 10/14/2017                                             **/
+
+
+module Base
+{
+	
+	item Wallet
+	{
+		Weight	=	0.2,
+		WeightReduction	=	0,
+		Type	    =	Container,
+		Capacity	=	1,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_01,
+	}
+
+	item Wallet2
+	{
+		Weight	=	0.2,
+		WeightReduction	=	0,
+		Type	    =	Container,
+		Capacity	=	1,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_02,
+	}
+
+	item Wallet3
+	{
+		Weight	=	0.2,
+		WeightReduction	=	0,
+		Type	    =	Container,
+		Capacity	=	1,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_03,
+	}
+
+	item Wallet4
+	{
+		Weight	=	0.2,
+		WeightReduction	=	0,
+		Type	    =	Container,
+		Capacity	=	1,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_04,
+	}
+}
