@@ -1,0 +1,125 @@
+/** Name.........: US Currency Mod                                        **/
+/** Author.......: Chri1852                                               **/
+/** GitHub.......: https://github.com/chri1852/Project-Zomboid-Money-Mod  **/
+/** Last Updated.: 10/14/2017                                             **/
+
+module US_Currency_Mod
+{
+	imports
+	{
+		Base
+	}
+	
+	item OneDollar
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = One Dollar,
+		Icon = OneDollar,
+	}
+	
+	item TwoDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = Two Dollars,
+		Icon = TwoDollars,
+	}
+	
+	item FiveDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = Five Dollars, 
+		Icon = FiveDollars,
+	}
+	
+	item TenDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = Ten Dollars,
+		Icon = TenDollars,
+	}
+	
+	item TwentyDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = Twenty Dollars,
+		Icon = TwentyDollars,
+	}
+	
+	item FiftyDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = Fifty Dollars,
+		Icon = FiftyDollars,
+	}
+	
+	item OneHundredDollars
+	{
+		Weight = 0.001,
+		Type = Normal,
+		DisplayName = One Hundred Dollars,
+		Icon = OneHundredDollars,
+	}
+	
+	
+	item BundleOfOnes
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Ones,
+		Icon = BundleOfOnes,
+	}
+	
+	item BundleOfTwos
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Twos,
+		Icon = BundleOfTwos,
+	}
+	
+	item BundleOfFives
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Fives, 
+		Icon = BundleOfFives,
+	}
+	
+	item BundleOfTens
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Tens,
+		Icon = BundleOfTens,
+	}
+	
+	item BundleOfTwenties
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Twenties,
+		Icon = BundleOfTwenties,
+	}
+	
+	item BundleOfFifties
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Fifties,
+		Icon = BundleOfFifties,
+	}
+	
+	item BundleOfHundreds
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Bundle of Hundreds,
+		Icon = BundleOfHundreds,
+	}
+}

@@ -1,0 +1,139 @@
+/** Name.........: US Currency Mod                                        **/
+/** Author.......: Chri1852                                               **/
+/** GitHub.......: https://github.com/chri1852/Project-Zomboid-Money-Mod  **/
+/** Last Updated.: 10/14/2017                                             **/
+
+ 
+module US_Currency_Mod
+{
+	imports
+	{
+		Base
+	}
+	
+	recipe Bundle Ones
+	{
+		OneDollar=100,
+		NeedToBeLearn:false,
+		Result:BundleOfOnes,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Twos
+	{
+		TwoDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfTwos,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Fives
+	{
+		FiveDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfFives,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Tens
+	{
+		TenDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfTens,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Twenties
+	{
+		TwentyDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfTwenties,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Fifties
+	{
+		FiftyDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfFifties,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Bundle Hundreds
+	{
+		OneHundredDollars=100,
+		NeedToBeLearn:false,
+		Result:BundleOfHundreds,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Ones
+	{
+		BundleOfOnes,
+		NeedToBeLearn:false,
+		Result:OneDollar=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Twos
+	{
+		BundleOfTwos,
+		NeedToBeLearn:false,
+		Result:TwoDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Fives
+	{
+		BundleOfFives,
+		NeedToBeLearn:false,
+		Result:FiveDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Tens
+	{
+		BundleOfTens,
+		NeedToBeLearn:false,
+		Result:TenDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Twenties
+	{
+		BundleOfTwenties,
+		NeedToBeLearn:false,
+		Result:TwentyDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Fifties
+	{
+		BundleOfFifties,
+		NeedToBeLearn:false,
+		Result:FiftyDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+	
+	recipe Unbundle Hundreds
+	{
+		BundleOfHundreds,
+		NeedToBeLearn:false,
+		Result:OneHundredDollars=100,
+		Time:10,
+		Category:Leisure,
+	}
+}
