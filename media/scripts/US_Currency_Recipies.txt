@@ -11,15 +11,6 @@ module US_Currency_Mod
 		Base
 	}
 	
-	recipe Test Bundle Twenties
-	{
-		RippedSheets,
-		NeedToBeLearn:false,
-		Result:BundleOfTwenties,
-		Time:10,
-		Category:General,
-	}
-	
 	recipe Bundle Ones
 	{
 		OneDollar=100,
