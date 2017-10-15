@@ -21,13 +21,13 @@ table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, "US_Currency_Mod.OneHundredDollars");
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Wallet");
-table.insert(SuburbsDistributions["all"]["inventorymale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Wallet2");
-table.insert(SuburbsDistributions["all"]["inventorymale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Wallet3");
-table.insert(SuburbsDistributions["all"]["inventorymale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Wallet4");
-table.insert(SuburbsDistributions["all"]["inventorymale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 
 
 --Female Zombie
@@ -46,13 +46,13 @@ table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "US_Currency_Mod.OneHundredDollars");
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Wallet");
-table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Wallet2");
-table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Wallet3");
-table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Wallet4");
-table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 2);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 
 --Office Drawers
 table.insert(SuburbsDistributions["all"]["officedrawers"].items, "US_Currency_Mod.OneDollar");

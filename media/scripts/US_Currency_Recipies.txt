@@ -11,13 +11,22 @@ module US_Currency_Mod
 		Base
 	}
 	
+	recipe Test Bundle Twenties
+	{
+		RippedSheets,
+		NeedToBeLearn:false,
+		Result:BundleOfTwenties,
+		Time:10,
+		Category:General,
+	}
+	
 	recipe Bundle Ones
 	{
 		OneDollar=100,
 		NeedToBeLearn:false,
 		Result:BundleOfOnes,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Twos
@@ -26,7 +35,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfTwos,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Fives
@@ -35,7 +44,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfFives,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Tens
@@ -44,7 +53,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfTens,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Twenties
@@ -53,7 +62,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfTwenties,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Fifties
@@ -62,7 +71,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfFifties,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Bundle Hundreds
@@ -71,7 +80,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:BundleOfHundreds,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Ones
@@ -80,7 +89,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:OneDollar=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Twos
@@ -89,7 +98,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:TwoDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Fives
@@ -98,7 +107,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:FiveDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Tens
@@ -107,7 +116,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:TenDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Twenties
@@ -116,7 +125,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:TwentyDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Fifties
@@ -125,7 +134,7 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:FiftyDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 	
 	recipe Unbundle Hundreds
@@ -134,6 +143,6 @@ module US_Currency_Mod
 		NeedToBeLearn:false,
 		Result:OneHundredDollars=100,
 		Time:10,
-		Category:Leisure,
+		Category:General,
 	}
 }
